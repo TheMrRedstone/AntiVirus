@@ -22,6 +22,10 @@ for line in urllib.request.urlopen(theurl):
         print(open("User/Updates/version.txt").read())
         print("Out Of Date Program")
         print("Updating....")
+        with open("main.py", "w") as f:
+            theurl = "https://raw.githubusercontent.com/TheMrRedstone/AntiVirus/main/main.py"
+            for line in urllib.request.urlopen(theurl):
+                f.write(line.decode('utf-8').replace("\n", ""))
 
 # Main Variables
 data = json.load(open('User/Scan Settings/settings.json'))
