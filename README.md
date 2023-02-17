@@ -1,5 +1,6 @@
 # AntiVirus
 This Is A Simple AntiVirus Coded In Python! More Updates Will Come Soon With More Features And Even Better Auto Updating.
+I will eventually change from python to a different language in the future
 
 # WARNING
 Please Read This Before Installing Currently This Is A Windows Only Installation In The Future I Will Add Support For Linux, And Mac
